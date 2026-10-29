@@ -26,7 +26,7 @@ export const STORE = {
   instagramHandle: "@demonstracao",
   facebook: "https://www.facebook.com/Deliverypossatao",
   facebookHandle: "/Deliverypossatao",
-  siteUrl: "https://possato-lanches.vercel.app",
+  siteUrl: "https://possatao-lanches.vercel.app",
   googleRating: 4.5,
   googleReviews: 82,
   mapsEmbed:
