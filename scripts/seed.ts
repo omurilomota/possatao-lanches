@@ -102,7 +102,7 @@ async function main() {
   const now = Date.now();
   const demo = [
     {
-      customerName: "João Marques", phone: "18997112233", orderType: "entrega",
+      customerName: "João Marques", phone: "18999990301", orderType: "entrega",
       street: "Rua Rui Barbosa", number: "450", district: "Centro",
       paymentMethod: "pix", status: "novo", subtotalCents: 5000, deliveryFeeCents: 600,
       totalCents: 5600, createdAt: new Date(now - 6 * 60000),
@@ -112,7 +112,7 @@ async function main() {
       ],
     },
     {
-      customerName: "Noemí Bonfim", phone: "18998445566", orderType: "entrega",
+      customerName: "Noemí Bonfim", phone: "18999990302", orderType: "entrega",
       street: "Av. Sete de Setembro", number: "1237", district: "Centro",
       paymentMethod: "credito", status: "preparo", subtotalCents: 6900, deliveryFeeCents: 0,
       totalCents: 6900, createdAt: new Date(now - 22 * 60000),
@@ -121,7 +121,7 @@ async function main() {
       ],
     },
     {
-      customerName: "Carlos Eduardo", phone: "18996778899", orderType: "retirada",
+      customerName: "Carlos Eduardo", phone: "18999990303", orderType: "retirada",
       street: null, number: null, district: null,
       paymentMethod: "dinheiro", status: "concluido", subtotalCents: 3800, deliveryFeeCents: 0,
       totalCents: 3800, createdAt: new Date(now - 70 * 60000),
