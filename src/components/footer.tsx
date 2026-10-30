@@ -76,6 +76,17 @@ export function Footer() {
           <p>© 2026 {STORE.name}</p>
           <p>Cardápio e taxas ilustrativos · valores a confirmar com a loja</p>
         </div>
+        <p className="mx-auto mt-2 max-w-6xl px-4 text-center text-[10px] text-latte/25 sm:px-6">
+          <a
+            href="https://wa.me/5518998133524"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Falar com Murilo Mota no WhatsApp"
+            className="transition-colors hover:text-mustard"
+          >
+            Desenvolvido por Murilo Mota · 55 (18) 99813-3524
+          </a>
+        </p>
       </div>
     </footer>
   );
